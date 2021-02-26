@@ -1,255 +1,157 @@
-# Logfile created on 2021-02-25 23:26:30 -0800 by logger.rb/66358
-I, [2021-02-26T13:21:17.376034 #56323]  INFO -- : Processing event 1001
-I, [2021-02-26T13:21:17.377357 #56323]  INFO -- : Condition met for event: 1001
-I, [2021-02-26T13:21:17.377461 #56323]  INFO -- : {"begin_ts"=>"2020-09-16 15:00:54.445", "end_ts"=>"2020-09-16 15:00:58.16", "fin_extension_version"=>"1.05", "id"=>1001, "is_in_browser"=>true, "page_host"=>"analytics.fin.com", "page_title"=>"Home - Fin Analytics", "page_url"=>"https://analytics.fin.com/home", "ui_events"=>{"n_keypress"=>0, "n_mouse_click"=>0, "n_mouse_move"=>0, "n_mouse_scroll"=>0}, "user_id"=>56183}
-I, [2021-02-26T13:21:17.377496 #56323]  INFO -- : {:left=>["ui_events", "n_mouse_move"], :right=>0, :operator=>"less_than_equal"}
-I, [2021-02-26T13:21:17.377521 #56323]  INFO -- : condition result
-I, [2021-02-26T13:21:17.377538 #56323]  INFO -- : true
-I, [2021-02-26T13:21:17.377565 #56323]  INFO -- : Running action -drop_event- on event 1001
-I, [2021-02-26T13:21:17.377584 #56323]  INFO -- : dropping
-I, [2021-02-26T13:21:17.377600 #56323]  INFO -- : run action results
-I, [2021-02-26T13:21:17.377616 #56323]  INFO -- : [nil]
-I, [2021-02-26T13:21:17.377665 #56323]  INFO -- : condition result
-I, [2021-02-26T13:21:17.377683 #56323]  INFO -- : false
-I, [2021-02-26T13:21:17.377733 #56323]  INFO -- : condition result
-I, [2021-02-26T13:21:17.377752 #56323]  INFO -- : false
-I, [2021-02-26T13:21:17.377767 #56323]  INFO -- : RESULTS
-I, [2021-02-26T13:21:17.377799 #56323]  INFO -- : {"begin_ts"=>"2020-09-16 15:00:54.445", "end_ts"=>"2020-09-16 15:00:58.16", "fin_extension_version"=>"1.05", "id"=>1001, "is_in_browser"=>true, "page_host"=>"analytics.fin.com", "page_title"=>"Home - Fin Analytics", "page_url"=>"https://analytics.fin.com/home", "ui_events"=>{"n_keypress"=>0, "n_mouse_click"=>0, "n_mouse_move"=>0, "n_mouse_scroll"=>0}, "user_id"=>56183}
-I, [2021-02-26T13:21:17.377874 #56323]  INFO -- : Processing event 1002
-I, [2021-02-26T13:21:17.377917 #56323]  INFO -- : Condition met for event: 1002
-I, [2021-02-26T13:21:17.377952 #56323]  INFO -- : {"begin_ts"=>"2020-09-16 15:00:54.485", "end_ts"=>"2020-09-16 15:00:58.338", "fin_extension_version"=>"1.05", "id"=>1002, "is_in_browser"=>true, "page_host"=>"app.gusto.com", "page_title"=>"Home - Gusto", "page_url"=>"https://app.gusto.com/home", "ui_events"=>{"n_keypress"=>0, "n_mouse_click"=>0, "n_mouse_move"=>1, "n_mouse_scroll"=>0}, "user_id"=>56182}
-I, [2021-02-26T13:21:17.377975 #56323]  INFO -- : {:left=>["page_host"], :right=>".*\\.gusto\\.com$", :operator=>"matches_regex"}
-I, [2021-02-26T13:21:17.378001 #56323]  INFO -- : condition result
-I, [2021-02-26T13:21:17.378017 #56323]  INFO -- : true
-I, [2021-02-26T13:21:17.378038 #56323]  INFO -- : Running action -drop_event- on event 1002
-I, [2021-02-26T13:21:17.378060 #56323]  INFO -- : dropping
-I, [2021-02-26T13:21:17.378078 #56323]  INFO -- : run action results
-I, [2021-02-26T13:21:17.378095 #56323]  INFO -- : [nil]
-I, [2021-02-26T13:21:17.378155 #56323]  INFO -- : condition result
-I, [2021-02-26T13:21:17.378174 #56323]  INFO -- : false
-I, [2021-02-26T13:21:17.378221 #56323]  INFO -- : condition result
-I, [2021-02-26T13:21:17.378239 #56323]  INFO -- : false
-I, [2021-02-26T13:21:17.378255 #56323]  INFO -- : RESULTS
-I, [2021-02-26T13:21:17.378286 #56323]  INFO -- : {"begin_ts"=>"2020-09-16 15:00:54.485", "end_ts"=>"2020-09-16 15:00:58.338", "fin_extension_version"=>"1.05", "id"=>1002, "is_in_browser"=>true, "page_host"=>"app.gusto.com", "page_title"=>"Home - Gusto", "page_url"=>"https://app.gusto.com/home", "ui_events"=>{"n_keypress"=>0, "n_mouse_click"=>0, "n_mouse_move"=>1, "n_mouse_scroll"=>0}, "user_id"=>56182}
-I, [2021-02-26T13:21:17.378333 #56323]  INFO -- : Processing event 1003
-I, [2021-02-26T13:21:17.378374 #56323]  INFO -- : condition result
-I, [2021-02-26T13:21:17.378391 #56323]  INFO -- : false
-I, [2021-02-26T13:21:17.378426 #56323]  INFO -- : Condition met for event: 1003
-I, [2021-02-26T13:21:17.378458 #56323]  INFO -- : {"begin_ts"=>"2020-09-16 15:00:58.16", "end_ts"=>"2020-09-16 15:01:01.456", "fin_extension_version"=>"1.05", "id"=>1003, "is_in_browser"=>true, "page_host"=>"fin.zendesk.com", "page_title"=>"Zendesk - Ticket 1234", "page_url"=>"https://fin.zendesk.com/ticket/1234", "ui_events"=>{"n_keypress"=>62, "n_mouse_click"=>0, "n_mouse_move"=>10, "n_mouse_scroll"=>1}, "user_id"=>56183}
-I, [2021-02-26T13:21:17.378492 #56323]  INFO -- : {:left=>["page_title"], :right=>".*Ticket \\d+", :operator=>"matches_regex"}
-I, [2021-02-26T13:21:17.378523 #56323]  INFO -- : Condition met for event: 1003
-I, [2021-02-26T13:21:17.378551 #56323]  INFO -- : {"begin_ts"=>"2020-09-16 15:00:58.16", "end_ts"=>"2020-09-16 15:01:01.456", "fin_extension_version"=>"1.05", "id"=>1003, "is_in_browser"=>true, "page_host"=>"fin.zendesk.com", "page_title"=>"Zendesk - Ticket 1234", "page_url"=>"https://fin.zendesk.com/ticket/1234", "ui_events"=>{"n_keypress"=>62, "n_mouse_click"=>0, "n_mouse_move"=>10, "n_mouse_scroll"=>1}, "user_id"=>56183}
-I, [2021-02-26T13:21:17.378568 #56323]  INFO -- : {:left=>["page_host"], :right=>".*\\.zendesk\\.com$", :operator=>"matches_regex"}
-I, [2021-02-26T13:21:17.378585 #56323]  INFO -- : condition result
-I, [2021-02-26T13:21:17.378597 #56323]  INFO -- : true
-I, [2021-02-26T13:21:17.378616 #56323]  INFO -- : Running action -regex_replace- on event 1003
-I, [2021-02-26T13:21:17.378631 #56323]  INFO -- : Action: regex_replace
-I, [2021-02-26T13:21:17.378656 #56323]  INFO -- : replacing
-I, [2021-02-26T13:21:17.378678 #56323]  INFO -- : {:action=>"regex_replace", :key_path=>["page_title"], :pattern=>"(- Ticket \\d+)", :replacement=>"---", :value=>nil, :overwrite=>nil}
-I, [2021-02-26T13:21:17.378710 #56323]  INFO -- : run action results
-I, [2021-02-26T13:21:17.378725 #56323]  INFO -- : [nil]
-I, [2021-02-26T13:21:17.378754 #56323]  INFO -- : Condition met for event: 1003
-I, [2021-02-26T13:21:17.378784 #56323]  INFO -- : {"begin_ts"=>"2020-09-16 15:00:58.16", "end_ts"=>"2020-09-16 15:01:01.456", "fin_extension_version"=>"1.05", "id"=>1003, "is_in_browser"=>true, "page_host"=>"fin.zendesk.com", "page_title"=>"Zendesk - Ticket 1234", "page_url"=>"https://fin.zendesk.com/ticket/1234", "ui_events"=>{"n_keypress"=>62, "n_mouse_click"=>0, "n_mouse_move"=>10, "n_mouse_scroll"=>1}, "user_id"=>56183}
-I, [2021-02-26T13:21:17.378802 #56323]  INFO -- : {:left=>["page_host"], :right=>".*\\.zendesk\\.com$", :operator=>"matches_regex"}
-I, [2021-02-26T13:21:17.378835 #56323]  INFO -- : Condition met for event: 1003
-I, [2021-02-26T13:21:17.378889 #56323]  INFO -- : {"begin_ts"=>"2020-09-16 15:00:58.16", "end_ts"=>"2020-09-16 15:01:01.456", "fin_extension_version"=>"1.05", "id"=>1003, "is_in_browser"=>true, "page_host"=>"fin.zendesk.com", "page_title"=>"Zendesk - Ticket 1234", "page_url"=>"https://fin.zendesk.com/ticket/1234", "ui_events"=>{"n_keypress"=>62, "n_mouse_click"=>0, "n_mouse_move"=>10, "n_mouse_scroll"=>1}, "user_id"=>56183}
-I, [2021-02-26T13:21:17.378908 #56323]  INFO -- : {:left=>["ui_events", "n_keypress"], :right=>0, :operator=>"greater_than"}
-I, [2021-02-26T13:21:17.378921 #56323]  INFO -- : condition result
-I, [2021-02-26T13:21:17.378932 #56323]  INFO -- : false
-I, [2021-02-26T13:21:17.378944 #56323]  INFO -- : RESULTS
-I, [2021-02-26T13:21:17.378971 #56323]  INFO -- : {"begin_ts"=>"2020-09-16 15:00:58.16", "end_ts"=>"2020-09-16 15:01:01.456", "fin_extension_version"=>"1.05", "id"=>1003, "is_in_browser"=>true, "page_host"=>"fin.zendesk.com", "page_title"=>"Zendesk - Ticket 1234", "page_url"=>"https://fin.zendesk.com/ticket/1234", "ui_events"=>{"n_keypress"=>62, "n_mouse_click"=>0, "n_mouse_move"=>10, "n_mouse_scroll"=>1}, "user_id"=>56183}
-I, [2021-02-26T13:21:17.379016 #56323]  INFO -- : Processing event 1004
-I, [2021-02-26T13:21:17.379054 #56323]  INFO -- : condition result
-I, [2021-02-26T13:21:17.379072 #56323]  INFO -- : false
-I, [2021-02-26T13:21:17.379113 #56323]  INFO -- : condition result
-I, [2021-02-26T13:21:17.379129 #56323]  INFO -- : false
-I, [2021-02-26T13:21:17.379169 #56323]  INFO -- : Condition met for event: 1004
-I, [2021-02-26T13:21:17.379223 #56323]  INFO -- : {"begin_ts"=>"2020-09-16 15:00:58.338", "end_ts"=>"2020-09-16 15:01:01.53", "fin_extension_version"=>"1.05", "id"=>1004, "is_in_browser"=>true, "page_host"=>"kb.fin.com", "page_title"=>"Fin Knowledge Base // How to Put Out a Printer Fire", "page_url"=>"https://kb.fin.com/article/5678", "ui_events"=>{"n_keypress"=>62, "n_mouse_click"=>0, "n_mouse_move"=>10, "n_mouse_scroll"=>0}, "user_id"=>56182}
-I, [2021-02-26T13:21:17.379255 #56323]  INFO -- : {:left=>["page_host"], :right=>"^kb\\.fin\\.com$", :operator=>"matches_regex"}
-I, [2021-02-26T13:21:17.379279 #56323]  INFO -- : Condition met for event: 1004
-I, [2021-02-26T13:21:17.379306 #56323]  INFO -- : {"begin_ts"=>"2020-09-16 15:00:58.338", "end_ts"=>"2020-09-16 15:01:01.53", "fin_extension_version"=>"1.05", "id"=>1004, "is_in_browser"=>true, "page_host"=>"kb.fin.com", "page_title"=>"Fin Knowledge Base // How to Put Out a Printer Fire", "page_url"=>"https://kb.fin.com/article/5678", "ui_events"=>{"n_keypress"=>62, "n_mouse_click"=>0, "n_mouse_move"=>10, "n_mouse_scroll"=>0}, "user_id"=>56182}
-I, [2021-02-26T13:21:17.379326 #56323]  INFO -- : {:left=>["ui_events", "n_keypress"], :right=>0, :operator=>"greater_than"}
-I, [2021-02-26T13:21:17.379340 #56323]  INFO -- : condition result
-I, [2021-02-26T13:21:17.379351 #56323]  INFO -- : false
-I, [2021-02-26T13:21:17.379363 #56323]  INFO -- : RESULTS
-I, [2021-02-26T13:21:17.379387 #56323]  INFO -- : {"begin_ts"=>"2020-09-16 15:00:58.338", "end_ts"=>"2020-09-16 15:01:01.53", "fin_extension_version"=>"1.05", "id"=>1004, "is_in_browser"=>true, "page_host"=>"kb.fin.com", "page_title"=>"Fin Knowledge Base // How to Put Out a Printer Fire", "page_url"=>"https://kb.fin.com/article/5678", "ui_events"=>{"n_keypress"=>62, "n_mouse_click"=>0, "n_mouse_move"=>10, "n_mouse_scroll"=>0}, "user_id"=>56182}
-I, [2021-02-26T13:21:17.379428 #56323]  INFO -- : Processing event 1005
-I, [2021-02-26T13:21:17.379468 #56323]  INFO -- : condition result
-I, [2021-02-26T13:21:17.379483 #56323]  INFO -- : false
-I, [2021-02-26T13:21:17.379512 #56323]  INFO -- : Condition met for event: 1005
-I, [2021-02-26T13:21:17.379542 #56323]  INFO -- : {"begin_ts"=>"2020-09-16 15:01:01.456", "end_ts"=>"2020-09-16 15:01:02.441", "fin_extension_version"=>"1.05", "id"=>1005, "is_in_browser"=>true, "page_host"=>"fin.zendesk.com", "page_title"=>"Zendesk - Ticket 5678", "page_url"=>"https://fin.zendesk.com/ticket/5678", "ui_events"=>{"n_keypress"=>0, "n_mouse_click"=>0, "n_mouse_move"=>10, "n_mouse_scroll"=>0}, "user_id"=>56183}
-I, [2021-02-26T13:21:17.379560 #56323]  INFO -- : {:left=>["page_title"], :right=>".*Ticket \\d+", :operator=>"matches_regex"}
-I, [2021-02-26T13:21:17.379587 #56323]  INFO -- : Condition met for event: 1005
-I, [2021-02-26T13:21:17.379617 #56323]  INFO -- : {"begin_ts"=>"2020-09-16 15:01:01.456", "end_ts"=>"2020-09-16 15:01:02.441", "fin_extension_version"=>"1.05", "id"=>1005, "is_in_browser"=>true, "page_host"=>"fin.zendesk.com", "page_title"=>"Zendesk - Ticket 5678", "page_url"=>"https://fin.zendesk.com/ticket/5678", "ui_events"=>{"n_keypress"=>0, "n_mouse_click"=>0, "n_mouse_move"=>10, "n_mouse_scroll"=>0}, "user_id"=>56183}
-I, [2021-02-26T13:21:17.379634 #56323]  INFO -- : {:left=>["page_host"], :right=>".*\\.zendesk\\.com$", :operator=>"matches_regex"}
-I, [2021-02-26T13:21:17.379647 #56323]  INFO -- : condition result
-I, [2021-02-26T13:21:17.379658 #56323]  INFO -- : true
-I, [2021-02-26T13:21:17.379677 #56323]  INFO -- : Running action -regex_replace- on event 1005
-I, [2021-02-26T13:21:17.379693 #56323]  INFO -- : Action: regex_replace
-I, [2021-02-26T13:21:17.379704 #56323]  INFO -- : replacing
-I, [2021-02-26T13:21:17.379723 #56323]  INFO -- : {:action=>"regex_replace", :key_path=>["page_title"], :pattern=>"(- Ticket \\d+)", :replacement=>"---", :value=>nil, :overwrite=>nil}
-I, [2021-02-26T13:21:17.379761 #56323]  INFO -- : run action results
-I, [2021-02-26T13:21:17.379777 #56323]  INFO -- : [nil]
-I, [2021-02-26T13:21:17.379807 #56323]  INFO -- : Condition met for event: 1005
-I, [2021-02-26T13:21:17.379835 #56323]  INFO -- : {"begin_ts"=>"2020-09-16 15:01:01.456", "end_ts"=>"2020-09-16 15:01:02.441", "fin_extension_version"=>"1.05", "id"=>1005, "is_in_browser"=>true, "page_host"=>"fin.zendesk.com", "page_title"=>"Zendesk - Ticket 5678", "page_url"=>"https://fin.zendesk.com/ticket/5678", "ui_events"=>{"n_keypress"=>0, "n_mouse_click"=>0, "n_mouse_move"=>10, "n_mouse_scroll"=>0}, "user_id"=>56183}
-I, [2021-02-26T13:21:17.379863 #56323]  INFO -- : {:left=>["page_host"], :right=>".*\\.zendesk\\.com$", :operator=>"matches_regex"}
-I, [2021-02-26T13:21:17.379898 #56323]  INFO -- : condition result
-I, [2021-02-26T13:21:17.379912 #56323]  INFO -- : false
-I, [2021-02-26T13:21:17.379925 #56323]  INFO -- : RESULTS
-I, [2021-02-26T13:21:17.379952 #56323]  INFO -- : {"begin_ts"=>"2020-09-16 15:01:01.456", "end_ts"=>"2020-09-16 15:01:02.441", "fin_extension_version"=>"1.05", "id"=>1005, "is_in_browser"=>true, "page_host"=>"fin.zendesk.com", "page_title"=>"Zendesk - Ticket 5678", "page_url"=>"https://fin.zendesk.com/ticket/5678", "ui_events"=>{"n_keypress"=>0, "n_mouse_click"=>0, "n_mouse_move"=>10, "n_mouse_scroll"=>0}, "user_id"=>56183}
-I, [2021-02-26T13:21:50.052859 #56326]  INFO -- : Running action -array_append- on event 1003
-I, [2021-02-26T13:21:50.052927 #56326]  INFO -- : run action results
-I, [2021-02-26T13:21:50.052955 #56326]  INFO -- : [["a", "value"]]
-I, [2021-02-26T13:21:50.053130 #56326]  INFO -- : Running action -drop_event- on event 1002
-I, [2021-02-26T13:21:50.053160 #56326]  INFO -- : dropping
-I, [2021-02-26T13:21:50.053180 #56326]  INFO -- : run action results
-I, [2021-02-26T13:21:50.053199 #56326]  INFO -- : [nil]
-I, [2021-02-26T13:21:50.053333 #56326]  INFO -- : Condition met for event: 1002
-I, [2021-02-26T13:21:50.053380 #56326]  INFO -- : {"begin_ts"=>"2020-09-16 15:00:54.485", "end_ts"=>"2020-09-16 15:00:58.338", "fin_extension_version"=>"1.05", "id"=>1002, "is_in_browser"=>true, "page_host"=>"app.gusto.com", "page_title"=>"Home - Gusto", "page_url"=>"https://app.gusto.com/home", "ui_events"=>{"n_keypress"=>0, "n_mouse_click"=>0, "n_mouse_move"=>2, "n_mouse_scroll"=>0}, "user_id"=>56182}
-I, [2021-02-26T13:21:50.053410 #56326]  INFO -- : {:left=>["ui_events", "n_mouse_move"], :right=>2, :operator=>"equal_to"}
-I, [2021-02-26T13:21:50.053528 #56326]  INFO -- : Condition met for event: 1002
-I, [2021-02-26T13:21:50.053570 #56326]  INFO -- : {"begin_ts"=>"2020-09-16 15:00:54.485", "end_ts"=>"2020-09-16 15:00:58.338", "fin_extension_version"=>"1.05", "id"=>1002, "is_in_browser"=>true, "page_host"=>"app.gusto.com", "page_title"=>"Home - Gusto", "page_url"=>"https://app.gusto.com/home", "ui_events"=>{"n_keypress"=>0, "n_mouse_click"=>0, "n_mouse_move"=>3, "n_mouse_scroll"=>0}, "user_id"=>56182}
-I, [2021-02-26T13:21:50.053597 #56326]  INFO -- : {:left=>["ui_events", "n_mouse_move"], :right=>2, :operator=>"greater_than"}
-I, [2021-02-26T13:21:50.053726 #56326]  INFO -- : Condition met for event: 1002
-I, [2021-02-26T13:21:50.053768 #56326]  INFO -- : {"begin_ts"=>"2020-09-16 15:00:54.485", "end_ts"=>"2020-09-16 15:00:58.338", "fin_extension_version"=>"1.05", "id"=>1002, "is_in_browser"=>true, "page_host"=>"app.gusto.com", "page_title"=>"Home - Gusto", "page_url"=>"https://app.gusto.com/home", "ui_events"=>{"n_keypress"=>0, "n_mouse_click"=>0, "n_mouse_move"=>3, "n_mouse_scroll"=>0}, "user_id"=>56182}
-I, [2021-02-26T13:21:50.053793 #56326]  INFO -- : {:left=>["ui_events", "n_mouse_move"], :right=>2, :operator=>"greater_than_equal"}
-I, [2021-02-26T13:21:50.053857 #56326]  INFO -- : Condition met for event: 1002
-I, [2021-02-26T13:21:50.053897 #56326]  INFO -- : {"begin_ts"=>"2020-09-16 15:00:54.485", "end_ts"=>"2020-09-16 15:00:58.338", "fin_extension_version"=>"1.05", "id"=>1002, "is_in_browser"=>true, "page_host"=>"app.gusto.com", "page_title"=>"Home - Gusto", "page_url"=>"https://app.gusto.com/home", "ui_events"=>{"n_keypress"=>0, "n_mouse_click"=>0, "n_mouse_move"=>3, "n_mouse_scroll"=>0}, "user_id"=>56182}
-I, [2021-02-26T13:21:50.053923 #56326]  INFO -- : {:left=>["ui_events", "n_mouse_move"], :right=>3, :operator=>"greater_than_equal"}
-I, [2021-02-26T13:21:50.054049 #56326]  INFO -- : Condition met for event: 1002
-I, [2021-02-26T13:21:50.054103 #56326]  INFO -- : {"begin_ts"=>"2020-09-16 15:00:54.485", "end_ts"=>"2020-09-16 15:00:58.338", "fin_extension_version"=>"1.05", "id"=>1002, "is_in_browser"=>true, "page_host"=>"app.gusto.com", "page_title"=>"Home - Gusto", "page_url"=>"https://app.gusto.com/home", "ui_events"=>{"n_keypress"=>0, "n_mouse_click"=>0, "n_mouse_move"=>1, "n_mouse_scroll"=>0}, "user_id"=>56182}
-I, [2021-02-26T13:21:50.054127 #56326]  INFO -- : {:left=>["ui_events", "n_mouse_move"], :right=>2, :operator=>"less_than"}
-I, [2021-02-26T13:21:50.054189 #56326]  INFO -- : Condition met for event: 1002
-I, [2021-02-26T13:21:50.054225 #56326]  INFO -- : {"begin_ts"=>"2020-09-16 15:00:54.485", "end_ts"=>"2020-09-16 15:00:58.338", "fin_extension_version"=>"1.05", "id"=>1002, "is_in_browser"=>true, "page_host"=>"app.gusto.com", "page_title"=>"Home - Gusto", "page_url"=>"https://app.gusto.com/home", "ui_events"=>{"n_keypress"=>0, "n_mouse_click"=>0, "n_mouse_move"=>1, "n_mouse_scroll"=>0}, "user_id"=>56182}
-I, [2021-02-26T13:21:50.054247 #56326]  INFO -- : {:left=>["ui_events", "n_mouse_move"], :right=>1, :operator=>"less_than_equal"}
-I, [2021-02-26T13:21:50.054370 #56326]  INFO -- : Condition met for event: 1002
-I, [2021-02-26T13:21:50.054408 #56326]  INFO -- : {"begin_ts"=>"2020-09-16 15:00:54.485", "end_ts"=>"2020-09-16 15:00:58.338", "fin_extension_version"=>"1.05", "id"=>1002, "is_in_browser"=>true, "page_host"=>"app.gusto.com", "page_title"=>"Home - Gusto", "page_url"=>"https://app.gusto.com/home", "ui_events"=>{"n_keypress"=>0, "n_mouse_click"=>0, "n_mouse_move"=>1, "n_mouse_scroll"=>0}, "user_id"=>56182}
-I, [2021-02-26T13:21:50.054429 #56326]  INFO -- : {:left=>["ui_events", "n_mouse_move"], :right=>2, :operator=>"less_than_equal"}
-I, [2021-02-26T13:21:50.054487 #56326]  INFO -- : Condition met for event: 1002
-I, [2021-02-26T13:21:50.054524 #56326]  INFO -- : {"begin_ts"=>"2020-09-16 15:00:54.485", "end_ts"=>"2020-09-16 15:00:58.338", "fin_extension_version"=>"1.05", "id"=>1002, "is_in_browser"=>true, "page_host"=>"app.gusto.com", "page_title"=>"Home - Gusto", "page_url"=>"https://app.gusto.com/home", "ui_events"=>{"n_keypress"=>0, "n_mouse_click"=>0, "n_mouse_move"=>1, "n_mouse_scroll"=>0}, "user_id"=>56182}
-I, [2021-02-26T13:21:50.054547 #56326]  INFO -- : {:left=>["ui_events", "n_mouse_move"], :right=>1, :operator=>"less_than_equal"}
-I, [2021-02-26T13:21:50.054670 #56326]  INFO -- : Condition met for event: 1002
-I, [2021-02-26T13:21:50.054708 #56326]  INFO -- : {"begin_ts"=>"2020-09-16 15:00:54.485", "end_ts"=>"2020-09-16 15:00:58.338", "fin_extension_version"=>"1.05", "id"=>1002, "is_in_browser"=>true, "page_host"=>"app.gusto.com", "page_title"=>"Home - Gusto", "page_url"=>"https://app.gusto.com/home", "ui_events"=>{"n_keypress"=>0, "n_mouse_click"=>0, "n_mouse_move"=>3, "n_mouse_scroll"=>0}, "user_id"=>56182}
-I, [2021-02-26T13:21:50.054729 #56326]  INFO -- : {:left=>["ui_events", "n_mouse_move"], :right=>2, :operator=>"not_equal_to"}
-I, [2021-02-26T13:21:50.054850 #56326]  INFO -- : Condition met for event: 1002
-I, [2021-02-26T13:21:50.054889 #56326]  INFO -- : {"begin_ts"=>"2020-09-16 15:00:54.485", "end_ts"=>"2020-09-16 15:00:58.338", "fin_extension_version"=>"1.05", "id"=>1002, "is_in_browser"=>true, "page_host"=>"app.gusto.com", "page_title"=>"Home - Gusto", "page_url"=>"https://app.gusto.com/home", "ui_events"=>{"n_keypress"=>0, "n_mouse_click"=>0, "n_mouse_move"=>1, "n_mouse_scroll"=>0}, "user_id"=>56182}
-I, [2021-02-26T13:21:50.054911 #56326]  INFO -- : {:left=>["page_host"], :right=>".*\\.gusto\\.com$", :operator=>"matches_regex"}
-I, [2021-02-26T13:21:50.055029 #56326]  INFO -- : Running action -regex_replace- on event 1003
-I, [2021-02-26T13:21:50.055053 #56326]  INFO -- : Action: regex_replace
-I, [2021-02-26T13:21:50.055071 #56326]  INFO -- : replacing
-I, [2021-02-26T13:21:50.055094 #56326]  INFO -- : {:action=>"regex_replace", :key_path=>["page_title"], :pattern=>"(- Ticket \\d+)", :replacement=>"---", :value=>nil, :overwrite=>nil}
-I, [2021-02-26T13:21:50.055131 #56326]  INFO -- : run action results
-I, [2021-02-26T13:21:50.055162 #56326]  INFO -- : ["Zendesk ---"]
-I, [2021-02-26T13:21:50.055274 #56326]  INFO -- : Running action -write_field- on event 1003
-I, [2021-02-26T13:21:50.055299 #56326]  INFO -- : Action: write_field
-I, [2021-02-26T13:21:50.055317 #56326]  INFO -- : no update
-I, [2021-02-26T13:21:50.055332 #56326]  INFO -- : run action results
-I, [2021-02-26T13:21:50.055347 #56326]  INFO -- : [false]
-I, [2021-02-26T13:21:50.057554 #56326]  INFO -- : Running action -write_field- on event 1003
-I, [2021-02-26T13:21:50.057593 #56326]  INFO -- : Action: write_field
-I, [2021-02-26T13:21:50.057618 #56326]  INFO -- : updating event
-I, [2021-02-26T13:21:50.057638 #56326]  INFO -- : run action results
-I, [2021-02-26T13:21:50.057673 #56326]  INFO -- : [{"begin_ts"=>"2020-09-16 15:00:58.16", "end_ts"=>"2020-09-16 15:01:01.456", "fin_extension_version"=>"1.05", "id"=>1003, "is_in_browser"=>true, "page_host"=>"fin.zendesk.com", "page_title"=>"Zendesk (- Ticket 1234)", "page_url"=>"https://fin.zendesk.com/ticket/1234", "ui_events"=>{"n_keypress"=>62, "n_mouse_click"=>0, "n_mouse_move"=>10, "n_mouse_scroll"=>1}, "user_id"=>56183, "tags"=>[]}]
-I, [2021-02-26T13:21:50.057745 #56326]  INFO -- : Running action -write_field- on event 1003
-I, [2021-02-26T13:21:50.057770 #56326]  INFO -- : Action: write_field
-I, [2021-02-26T13:21:50.057789 #56326]  INFO -- : updating event
-I, [2021-02-26T13:21:50.057806 #56326]  INFO -- : run action results
-I, [2021-02-26T13:21:50.057839 #56326]  INFO -- : [{"begin_ts"=>"2020-09-16 15:00:58.16", "end_ts"=>"2020-09-16 15:01:01.456", "fin_extension_version"=>"1.05", "id"=>1003, "is_in_browser"=>true, "page_host"=>"fin.zendesk.com", "page_title"=>"Zendesk (- Ticket 1234)", "page_url"=>"https://fin.zendesk.com/ticket/1234", "ui_events"=>{"n_keypress"=>62, "n_mouse_click"=>0, "n_mouse_move"=>10, "n_mouse_scroll"=>1}, "user_id"=>56183, "tags"=>[]}]
-I, [2021-02-26T13:29:11.962569 #56359]  INFO -- : Processing event 1001
-I, [2021-02-26T13:29:11.962678 #56359]  INFO -- : Condition met for event: 1001
-I, [2021-02-26T13:29:11.962721 #56359]  INFO -- : {"begin_ts"=>"2020-09-16 15:00:54.445", "end_ts"=>"2020-09-16 15:00:58.16", "fin_extension_version"=>"1.05", "id"=>1001, "is_in_browser"=>true, "page_host"=>"analytics.fin.com", "page_title"=>"Home - Fin Analytics", "page_url"=>"https://analytics.fin.com/home", "ui_events"=>{"n_keypress"=>0, "n_mouse_click"=>0, "n_mouse_move"=>0, "n_mouse_scroll"=>0}, "user_id"=>56183}
-I, [2021-02-26T13:29:11.962751 #56359]  INFO -- : {:left=>["ui_events", "n_mouse_move"], :right=>0, :operator=>"less_than_equal"}
-I, [2021-02-26T13:29:11.962773 #56359]  INFO -- : condition result
-I, [2021-02-26T13:29:11.962791 #56359]  INFO -- : true
-I, [2021-02-26T13:29:11.962816 #56359]  INFO -- : Running action -drop_event- on event 1001
-I, [2021-02-26T13:29:11.962836 #56359]  INFO -- : dropping
-I, [2021-02-26T13:29:11.962853 #56359]  INFO -- : run action results
-I, [2021-02-26T13:29:11.962870 #56359]  INFO -- : [nil]
-I, [2021-02-26T13:29:11.962917 #56359]  INFO -- : condition result
-I, [2021-02-26T13:29:11.962937 #56359]  INFO -- : false
-I, [2021-02-26T13:29:11.962984 #56359]  INFO -- : condition result
-I, [2021-02-26T13:29:11.963004 #56359]  INFO -- : false
-I, [2021-02-26T13:29:11.963021 #56359]  INFO -- : RESULTS
-I, [2021-02-26T13:29:11.963057 #56359]  INFO -- : {"begin_ts"=>"2020-09-16 15:00:54.445", "end_ts"=>"2020-09-16 15:00:58.16", "fin_extension_version"=>"1.05", "id"=>1001, "is_in_browser"=>true, "page_host"=>"analytics.fin.com", "page_title"=>"Home - Fin Analytics", "page_url"=>"https://analytics.fin.com/home", "ui_events"=>{"n_keypress"=>0, "n_mouse_click"=>0, "n_mouse_move"=>0, "n_mouse_scroll"=>0}, "user_id"=>56183}
-I, [2021-02-26T13:29:11.963105 #56359]  INFO -- : Processing event 1002
-I, [2021-02-26T13:29:11.963144 #56359]  INFO -- : Condition met for event: 1002
-I, [2021-02-26T13:29:11.963177 #56359]  INFO -- : {"begin_ts"=>"2020-09-16 15:00:54.485", "end_ts"=>"2020-09-16 15:00:58.338", "fin_extension_version"=>"1.05", "id"=>1002, "is_in_browser"=>true, "page_host"=>"app.gusto.com", "page_title"=>"Home - Gusto", "page_url"=>"https://app.gusto.com/home", "ui_events"=>{"n_keypress"=>0, "n_mouse_click"=>0, "n_mouse_move"=>1, "n_mouse_scroll"=>0}, "user_id"=>56182}
-I, [2021-02-26T13:29:11.963219 #56359]  INFO -- : {:left=>["page_host"], :right=>".*\\.gusto\\.com$", :operator=>"matches_regex"}
-I, [2021-02-26T13:29:11.963246 #56359]  INFO -- : condition result
-I, [2021-02-26T13:29:11.963262 #56359]  INFO -- : true
-I, [2021-02-26T13:29:11.963282 #56359]  INFO -- : Running action -drop_event- on event 1002
-I, [2021-02-26T13:29:11.963297 #56359]  INFO -- : dropping
-I, [2021-02-26T13:29:11.963310 #56359]  INFO -- : run action results
-I, [2021-02-26T13:29:11.963324 #56359]  INFO -- : [nil]
-I, [2021-02-26T13:29:11.963363 #56359]  INFO -- : condition result
-I, [2021-02-26T13:29:11.963379 #56359]  INFO -- : false
-I, [2021-02-26T13:29:11.963421 #56359]  INFO -- : condition result
-I, [2021-02-26T13:29:11.963437 #56359]  INFO -- : false
-I, [2021-02-26T13:29:11.963451 #56359]  INFO -- : RESULTS
-I, [2021-02-26T13:29:11.963477 #56359]  INFO -- : {"begin_ts"=>"2020-09-16 15:00:54.485", "end_ts"=>"2020-09-16 15:00:58.338", "fin_extension_version"=>"1.05", "id"=>1002, "is_in_browser"=>true, "page_host"=>"app.gusto.com", "page_title"=>"Home - Gusto", "page_url"=>"https://app.gusto.com/home", "ui_events"=>{"n_keypress"=>0, "n_mouse_click"=>0, "n_mouse_move"=>1, "n_mouse_scroll"=>0}, "user_id"=>56182}
-I, [2021-02-26T13:29:11.963519 #56359]  INFO -- : Processing event 1003
-I, [2021-02-26T13:29:11.963559 #56359]  INFO -- : condition result
-I, [2021-02-26T13:29:11.963575 #56359]  INFO -- : false
-I, [2021-02-26T13:29:11.963606 #56359]  INFO -- : Condition met for event: 1003
-I, [2021-02-26T13:29:11.963636 #56359]  INFO -- : {"begin_ts"=>"2020-09-16 15:00:58.16", "end_ts"=>"2020-09-16 15:01:01.456", "fin_extension_version"=>"1.05", "id"=>1003, "is_in_browser"=>true, "page_host"=>"fin.zendesk.com", "page_title"=>"Zendesk - Ticket 1234", "page_url"=>"https://fin.zendesk.com/ticket/1234", "ui_events"=>{"n_keypress"=>62, "n_mouse_click"=>0, "n_mouse_move"=>10, "n_mouse_scroll"=>1}, "user_id"=>56183}
-I, [2021-02-26T13:29:11.963655 #56359]  INFO -- : {:left=>["page_title"], :right=>".*Ticket \\d+", :operator=>"matches_regex"}
-I, [2021-02-26T13:29:11.963684 #56359]  INFO -- : Condition met for event: 1003
-I, [2021-02-26T13:29:11.963712 #56359]  INFO -- : {"begin_ts"=>"2020-09-16 15:00:58.16", "end_ts"=>"2020-09-16 15:01:01.456", "fin_extension_version"=>"1.05", "id"=>1003, "is_in_browser"=>true, "page_host"=>"fin.zendesk.com", "page_title"=>"Zendesk - Ticket 1234", "page_url"=>"https://fin.zendesk.com/ticket/1234", "ui_events"=>{"n_keypress"=>62, "n_mouse_click"=>0, "n_mouse_move"=>10, "n_mouse_scroll"=>1}, "user_id"=>56183}
-I, [2021-02-26T13:29:11.963731 #56359]  INFO -- : {:left=>["page_host"], :right=>".*\\.zendesk\\.com$", :operator=>"matches_regex"}
-I, [2021-02-26T13:29:11.963747 #56359]  INFO -- : condition result
-I, [2021-02-26T13:29:11.963760 #56359]  INFO -- : true
-I, [2021-02-26T13:29:11.963780 #56359]  INFO -- : Running action -regex_replace- on event 1003
-I, [2021-02-26T13:29:11.963795 #56359]  INFO -- : Action: regex_replace
-I, [2021-02-26T13:29:11.963808 #56359]  INFO -- : replacing
-I, [2021-02-26T13:29:11.963829 #56359]  INFO -- : {:action=>"regex_replace", :key_path=>["page_title"], :pattern=>"(- Ticket \\d+)", :replacement=>"---", :value=>nil, :overwrite=>nil}
-I, [2021-02-26T13:29:11.963859 #56359]  INFO -- : run action results
-I, [2021-02-26T13:29:11.963875 #56359]  INFO -- : [nil]
-I, [2021-02-26T13:29:11.963904 #56359]  INFO -- : Condition met for event: 1003
-I, [2021-02-26T13:29:11.964353 #56359]  INFO -- : {"begin_ts"=>"2020-09-16 15:00:58.16", "end_ts"=>"2020-09-16 15:01:01.456", "fin_extension_version"=>"1.05", "id"=>1003, "is_in_browser"=>true, "page_host"=>"fin.zendesk.com", "page_title"=>"Zendesk - Ticket 1234", "page_url"=>"https://fin.zendesk.com/ticket/1234", "ui_events"=>{"n_keypress"=>62, "n_mouse_click"=>0, "n_mouse_move"=>10, "n_mouse_scroll"=>1}, "user_id"=>56183}
-I, [2021-02-26T13:29:11.964379 #56359]  INFO -- : {:left=>["page_host"], :right=>".*\\.zendesk\\.com$", :operator=>"matches_regex"}
-I, [2021-02-26T13:29:11.964432 #56359]  INFO -- : Condition met for event: 1003
-I, [2021-02-26T13:29:11.964463 #56359]  INFO -- : {"begin_ts"=>"2020-09-16 15:00:58.16", "end_ts"=>"2020-09-16 15:01:01.456", "fin_extension_version"=>"1.05", "id"=>1003, "is_in_browser"=>true, "page_host"=>"fin.zendesk.com", "page_title"=>"Zendesk - Ticket 1234", "page_url"=>"https://fin.zendesk.com/ticket/1234", "ui_events"=>{"n_keypress"=>62, "n_mouse_click"=>0, "n_mouse_move"=>10, "n_mouse_scroll"=>1}, "user_id"=>56183}
-I, [2021-02-26T13:29:11.964483 #56359]  INFO -- : {:left=>["ui_events", "n_keypress"], :right=>0, :operator=>"greater_than"}
-I, [2021-02-26T13:29:11.964498 #56359]  INFO -- : condition result
-I, [2021-02-26T13:29:11.964512 #56359]  INFO -- : false
-I, [2021-02-26T13:29:11.964525 #56359]  INFO -- : RESULTS
-I, [2021-02-26T13:29:11.964569 #56359]  INFO -- : {"begin_ts"=>"2020-09-16 15:00:58.16", "end_ts"=>"2020-09-16 15:01:01.456", "fin_extension_version"=>"1.05", "id"=>1003, "is_in_browser"=>true, "page_host"=>"fin.zendesk.com", "page_title"=>"Zendesk - Ticket 1234", "page_url"=>"https://fin.zendesk.com/ticket/1234", "ui_events"=>{"n_keypress"=>62, "n_mouse_click"=>0, "n_mouse_move"=>10, "n_mouse_scroll"=>1}, "user_id"=>56183}
-I, [2021-02-26T13:29:11.964616 #56359]  INFO -- : Processing event 1004
-I, [2021-02-26T13:29:11.964658 #56359]  INFO -- : condition result
-I, [2021-02-26T13:29:11.964675 #56359]  INFO -- : false
-I, [2021-02-26T13:29:11.964718 #56359]  INFO -- : condition result
-I, [2021-02-26T13:29:11.964734 #56359]  INFO -- : false
-I, [2021-02-26T13:29:11.964773 #56359]  INFO -- : Condition met for event: 1004
-I, [2021-02-26T13:29:11.964806 #56359]  INFO -- : {"begin_ts"=>"2020-09-16 15:00:58.338", "end_ts"=>"2020-09-16 15:01:01.53", "fin_extension_version"=>"1.05", "id"=>1004, "is_in_browser"=>true, "page_host"=>"kb.fin.com", "page_title"=>"Fin Knowledge Base // How to Put Out a Printer Fire", "page_url"=>"https://kb.fin.com/article/5678", "ui_events"=>{"n_keypress"=>62, "n_mouse_click"=>0, "n_mouse_move"=>10, "n_mouse_scroll"=>0}, "user_id"=>56182}
-I, [2021-02-26T13:29:11.965196 #56359]  INFO -- : {:left=>["page_host"], :right=>"^kb\\.fin\\.com$", :operator=>"matches_regex"}
-I, [2021-02-26T13:29:11.965226 #56359]  INFO -- : Condition met for event: 1004
-I, [2021-02-26T13:29:11.965258 #56359]  INFO -- : {"begin_ts"=>"2020-09-16 15:00:58.338", "end_ts"=>"2020-09-16 15:01:01.53", "fin_extension_version"=>"1.05", "id"=>1004, "is_in_browser"=>true, "page_host"=>"kb.fin.com", "page_title"=>"Fin Knowledge Base // How to Put Out a Printer Fire", "page_url"=>"https://kb.fin.com/article/5678", "ui_events"=>{"n_keypress"=>62, "n_mouse_click"=>0, "n_mouse_move"=>10, "n_mouse_scroll"=>0}, "user_id"=>56182}
-I, [2021-02-26T13:29:11.965277 #56359]  INFO -- : {:left=>["ui_events", "n_keypress"], :right=>0, :operator=>"greater_than"}
-I, [2021-02-26T13:29:11.965291 #56359]  INFO -- : condition result
-I, [2021-02-26T13:29:11.965304 #56359]  INFO -- : false
-I, [2021-02-26T13:29:11.965320 #56359]  INFO -- : RESULTS
-I, [2021-02-26T13:29:11.965347 #56359]  INFO -- : {"begin_ts"=>"2020-09-16 15:00:58.338", "end_ts"=>"2020-09-16 15:01:01.53", "fin_extension_version"=>"1.05", "id"=>1004, "is_in_browser"=>true, "page_host"=>"kb.fin.com", "page_title"=>"Fin Knowledge Base // How to Put Out a Printer Fire", "page_url"=>"https://kb.fin.com/article/5678", "ui_events"=>{"n_keypress"=>62, "n_mouse_click"=>0, "n_mouse_move"=>10, "n_mouse_scroll"=>0}, "user_id"=>56182}
-I, [2021-02-26T13:29:11.965390 #56359]  INFO -- : Processing event 1005
-I, [2021-02-26T13:29:11.965431 #56359]  INFO -- : condition result
-I, [2021-02-26T13:29:11.965451 #56359]  INFO -- : false
-I, [2021-02-26T13:29:11.965482 #56359]  INFO -- : Condition met for event: 1005
-I, [2021-02-26T13:29:11.965514 #56359]  INFO -- : {"begin_ts"=>"2020-09-16 15:01:01.456", "end_ts"=>"2020-09-16 15:01:02.441", "fin_extension_version"=>"1.05", "id"=>1005, "is_in_browser"=>true, "page_host"=>"fin.zendesk.com", "page_title"=>"Zendesk - Ticket 5678", "page_url"=>"https://fin.zendesk.com/ticket/5678", "ui_events"=>{"n_keypress"=>0, "n_mouse_click"=>0, "n_mouse_move"=>10, "n_mouse_scroll"=>0}, "user_id"=>56183}
-I, [2021-02-26T13:29:11.965545 #56359]  INFO -- : {:left=>["page_title"], :right=>".*Ticket \\d+", :operator=>"matches_regex"}
-I, [2021-02-26T13:29:11.965577 #56359]  INFO -- : Condition met for event: 1005
-I, [2021-02-26T13:29:11.965608 #56359]  INFO -- : {"begin_ts"=>"2020-09-16 15:01:01.456", "end_ts"=>"2020-09-16 15:01:02.441", "fin_extension_version"=>"1.05", "id"=>1005, "is_in_browser"=>true, "page_host"=>"fin.zendesk.com", "page_title"=>"Zendesk - Ticket 5678", "page_url"=>"https://fin.zendesk.com/ticket/5678", "ui_events"=>{"n_keypress"=>0, "n_mouse_click"=>0, "n_mouse_move"=>10, "n_mouse_scroll"=>0}, "user_id"=>56183}
-I, [2021-02-26T13:29:11.965627 #56359]  INFO -- : {:left=>["page_host"], :right=>".*\\.zendesk\\.com$", :operator=>"matches_regex"}
-I, [2021-02-26T13:29:11.965643 #56359]  INFO -- : condition result
-I, [2021-02-26T13:29:11.966055 #56359]  INFO -- : true
-I, [2021-02-26T13:29:11.966077 #56359]  INFO -- : Running action -regex_replace- on event 1005
-I, [2021-02-26T13:29:11.966093 #56359]  INFO -- : Action: regex_replace
-I, [2021-02-26T13:29:11.966105 #56359]  INFO -- : replacing
-I, [2021-02-26T13:29:11.966211 #56359]  INFO -- : {:action=>"regex_replace", :key_path=>["page_title"], :pattern=>"(- Ticket \\d+)", :replacement=>"---", :value=>nil, :overwrite=>nil}
-I, [2021-02-26T13:29:11.966268 #56359]  INFO -- : run action results
-I, [2021-02-26T13:29:11.966290 #56359]  INFO -- : [nil]
-I, [2021-02-26T13:29:11.966331 #56359]  INFO -- : Condition met for event: 1005
-I, [2021-02-26T13:29:11.966369 #56359]  INFO -- : {"begin_ts"=>"2020-09-16 15:01:01.456", "end_ts"=>"2020-09-16 15:01:02.441", "fin_extension_version"=>"1.05", "id"=>1005, "is_in_browser"=>true, "page_host"=>"fin.zendesk.com", "page_title"=>"Zendesk - Ticket 5678", "page_url"=>"https://fin.zendesk.com/ticket/5678", "ui_events"=>{"n_keypress"=>0, "n_mouse_click"=>0, "n_mouse_move"=>10, "n_mouse_scroll"=>0}, "user_id"=>56183}
-I, [2021-02-26T13:29:11.966390 #56359]  INFO -- : {:left=>["page_host"], :right=>".*\\.zendesk\\.com$", :operator=>"matches_regex"}
-I, [2021-02-26T13:29:11.966428 #56359]  INFO -- : condition result
-I, [2021-02-26T13:29:11.966445 #56359]  INFO -- : false
-I, [2021-02-26T13:29:11.966460 #56359]  INFO -- : RESULTS
-I, [2021-02-26T13:29:11.966488 #56359]  INFO -- : {"begin_ts"=>"2020-09-16 15:01:01.456", "end_ts"=>"2020-09-16 15:01:02.441", "fin_extension_version"=>"1.05", "id"=>1005, "is_in_browser"=>true, "page_host"=>"fin.zendesk.com", "page_title"=>"Zendesk - Ticket 5678", "page_url"=>"https://fin.zendesk.com/ticket/5678", "ui_events"=>{"n_keypress"=>0, "n_mouse_click"=>0, "n_mouse_move"=>10, "n_mouse_scroll"=>0}, "user_id"=>56183}
+# Logfile created on 2021-02-26 14:42:21 -0800 by logger.rb/66358
+I, [2021-02-26T14:42:21.993288 #56765]  INFO -- : Running action -array_append- on event 1003
+I, [2021-02-26T14:42:21.993333 #56765]  INFO -- : run action results
+I, [2021-02-26T14:42:21.993359 #56765]  INFO -- : [["a", "value"]]
+I, [2021-02-26T14:42:21.993582 #56765]  INFO -- : Running action -drop_event- on event 1002
+I, [2021-02-26T14:42:21.993638 #56765]  INFO -- : dropping
+I, [2021-02-26T14:42:21.993663 #56765]  INFO -- : run action results
+I, [2021-02-26T14:42:21.993684 #56765]  INFO -- : [nil]
+I, [2021-02-26T14:42:21.993838 #56765]  INFO -- : Condition met for event: 1002
+I, [2021-02-26T14:42:21.993881 #56765]  INFO -- : {"begin_ts"=>"2020-09-16 15:00:54.485", "end_ts"=>"2020-09-16 15:00:58.338", "fan_extension_version"=>"1.05", "id"=>1002, "is_in_browser"=>true, "page_host"=>"app.gusto.com", "page_title"=>"Home - Gusto", "page_url"=>"https://app.gusto.com/home", "ui_events"=>{"n_keypress"=>0, "n_mouse_click"=>0, "n_mouse_move"=>2, "n_mouse_scroll"=>0}, "user_id"=>56182}
+I, [2021-02-26T14:42:21.993907 #56765]  INFO -- : {:left=>["ui_events", "n_mouse_move"], :right=>2, :operator=>"equal_to"}
+I, [2021-02-26T14:42:21.994081 #56765]  INFO -- : Condition met for event: 1002
+I, [2021-02-26T14:42:21.994122 #56765]  INFO -- : {"begin_ts"=>"2020-09-16 15:00:54.485", "end_ts"=>"2020-09-16 15:00:58.338", "fan_extension_version"=>"1.05", "id"=>1002, "is_in_browser"=>true, "page_host"=>"app.gusto.com", "page_title"=>"Home - Gusto", "page_url"=>"https://app.gusto.com/home", "ui_events"=>{"n_keypress"=>0, "n_mouse_click"=>0, "n_mouse_move"=>3, "n_mouse_scroll"=>0}, "user_id"=>56182}
+I, [2021-02-26T14:42:21.994146 #56765]  INFO -- : {:left=>["ui_events", "n_mouse_move"], :right=>2, :operator=>"greater_than"}
+I, [2021-02-26T14:42:21.994264 #56765]  INFO -- : Condition met for event: 1002
+I, [2021-02-26T14:42:21.994303 #56765]  INFO -- : {"begin_ts"=>"2020-09-16 15:00:54.485", "end_ts"=>"2020-09-16 15:00:58.338", "fan_extension_version"=>"1.05", "id"=>1002, "is_in_browser"=>true, "page_host"=>"app.gusto.com", "page_title"=>"Home - Gusto", "page_url"=>"https://app.gusto.com/home", "ui_events"=>{"n_keypress"=>0, "n_mouse_click"=>0, "n_mouse_move"=>3, "n_mouse_scroll"=>0}, "user_id"=>56182}
+I, [2021-02-26T14:42:21.994327 #56765]  INFO -- : {:left=>["ui_events", "n_mouse_move"], :right=>2, :operator=>"greater_than_equal"}
+I, [2021-02-26T14:42:21.994403 #56765]  INFO -- : Condition met for event: 1002
+I, [2021-02-26T14:42:21.994440 #56765]  INFO -- : {"begin_ts"=>"2020-09-16 15:00:54.485", "end_ts"=>"2020-09-16 15:00:58.338", "fan_extension_version"=>"1.05", "id"=>1002, "is_in_browser"=>true, "page_host"=>"app.gusto.com", "page_title"=>"Home - Gusto", "page_url"=>"https://app.gusto.com/home", "ui_events"=>{"n_keypress"=>0, "n_mouse_click"=>0, "n_mouse_move"=>3, "n_mouse_scroll"=>0}, "user_id"=>56182}
+I, [2021-02-26T14:42:21.994463 #56765]  INFO -- : {:left=>["ui_events", "n_mouse_move"], :right=>3, :operator=>"greater_than_equal"}
+I, [2021-02-26T14:42:21.994578 #56765]  INFO -- : Condition met for event: 1002
+I, [2021-02-26T14:42:21.994617 #56765]  INFO -- : {"begin_ts"=>"2020-09-16 15:00:54.485", "end_ts"=>"2020-09-16 15:00:58.338", "fan_extension_version"=>"1.05", "id"=>1002, "is_in_browser"=>true, "page_host"=>"app.gusto.com", "page_title"=>"Home - Gusto", "page_url"=>"https://app.gusto.com/home", "ui_events"=>{"n_keypress"=>0, "n_mouse_click"=>0, "n_mouse_move"=>1, "n_mouse_scroll"=>0}, "user_id"=>56182}
+I, [2021-02-26T14:42:21.994641 #56765]  INFO -- : {:left=>["ui_events", "n_mouse_move"], :right=>2, :operator=>"less_than"}
+I, [2021-02-26T14:42:21.994704 #56765]  INFO -- : Condition met for event: 1002
+I, [2021-02-26T14:42:21.994751 #56765]  INFO -- : {"begin_ts"=>"2020-09-16 15:00:54.485", "end_ts"=>"2020-09-16 15:00:58.338", "fan_extension_version"=>"1.05", "id"=>1002, "is_in_browser"=>true, "page_host"=>"app.gusto.com", "page_title"=>"Home - Gusto", "page_url"=>"https://app.gusto.com/home", "ui_events"=>{"n_keypress"=>0, "n_mouse_click"=>0, "n_mouse_move"=>1, "n_mouse_scroll"=>0}, "user_id"=>56182}
+I, [2021-02-26T14:42:21.994787 #56765]  INFO -- : {:left=>["ui_events", "n_mouse_move"], :right=>1, :operator=>"less_than_equal"}
+I, [2021-02-26T14:42:21.994902 #56765]  INFO -- : Condition met for event: 1002
+I, [2021-02-26T14:42:21.994937 #56765]  INFO -- : {"begin_ts"=>"2020-09-16 15:00:54.485", "end_ts"=>"2020-09-16 15:00:58.338", "fan_extension_version"=>"1.05", "id"=>1002, "is_in_browser"=>true, "page_host"=>"app.gusto.com", "page_title"=>"Home - Gusto", "page_url"=>"https://app.gusto.com/home", "ui_events"=>{"n_keypress"=>0, "n_mouse_click"=>0, "n_mouse_move"=>1, "n_mouse_scroll"=>0}, "user_id"=>56182}
+I, [2021-02-26T14:42:21.994958 #56765]  INFO -- : {:left=>["ui_events", "n_mouse_move"], :right=>2, :operator=>"less_than_equal"}
+I, [2021-02-26T14:42:21.995017 #56765]  INFO -- : Condition met for event: 1002
+I, [2021-02-26T14:42:21.995050 #56765]  INFO -- : {"begin_ts"=>"2020-09-16 15:00:54.485", "end_ts"=>"2020-09-16 15:00:58.338", "fan_extension_version"=>"1.05", "id"=>1002, "is_in_browser"=>true, "page_host"=>"app.gusto.com", "page_title"=>"Home - Gusto", "page_url"=>"https://app.gusto.com/home", "ui_events"=>{"n_keypress"=>0, "n_mouse_click"=>0, "n_mouse_move"=>1, "n_mouse_scroll"=>0}, "user_id"=>56182}
+I, [2021-02-26T14:42:21.995070 #56765]  INFO -- : {:left=>["ui_events", "n_mouse_move"], :right=>1, :operator=>"less_than_equal"}
+I, [2021-02-26T14:42:21.995193 #56765]  INFO -- : Condition met for event: 1002
+I, [2021-02-26T14:42:21.995229 #56765]  INFO -- : {"begin_ts"=>"2020-09-16 15:00:54.485", "end_ts"=>"2020-09-16 15:00:58.338", "fan_extension_version"=>"1.05", "id"=>1002, "is_in_browser"=>true, "page_host"=>"app.gusto.com", "page_title"=>"Home - Gusto", "page_url"=>"https://app.gusto.com/home", "ui_events"=>{"n_keypress"=>0, "n_mouse_click"=>0, "n_mouse_move"=>3, "n_mouse_scroll"=>0}, "user_id"=>56182}
+I, [2021-02-26T14:42:21.995252 #56765]  INFO -- : {:left=>["ui_events", "n_mouse_move"], :right=>2, :operator=>"not_equal_to"}
+I, [2021-02-26T14:42:21.995371 #56765]  INFO -- : Condition met for event: 1002
+I, [2021-02-26T14:42:21.995418 #56765]  INFO -- : {"begin_ts"=>"2020-09-16 15:00:54.485", "end_ts"=>"2020-09-16 15:00:58.338", "fan_extension_version"=>"1.05", "id"=>1002, "is_in_browser"=>true, "page_host"=>"app.gusto.com", "page_title"=>"Home - Gusto", "page_url"=>"https://app.gusto.com/home", "ui_events"=>{"n_keypress"=>0, "n_mouse_click"=>0, "n_mouse_move"=>1, "n_mouse_scroll"=>0}, "user_id"=>56182}
+I, [2021-02-26T14:42:21.995439 #56765]  INFO -- : {:left=>["page_host"], :right=>".*\\.gusto\\.com$", :operator=>"matches_regex"}
+I, [2021-02-26T14:42:21.995545 #56765]  INFO -- : Running action -regex_replace- on event 1003
+I, [2021-02-26T14:42:21.995568 #56765]  INFO -- : Action: regex_replace
+I, [2021-02-26T14:42:21.995583 #56765]  INFO -- : replacing
+I, [2021-02-26T14:42:21.995626 #56765]  INFO -- : {:action=>"regex_replace", :key_path=>["page_title"], :pattern=>"(- Ticket \\d+)", :replacement=>"---", :value=>nil, :overwrite=>nil}
+I, [2021-02-26T14:42:21.995682 #56765]  INFO -- : run action results
+I, [2021-02-26T14:42:21.995705 #56765]  INFO -- : ["Zendesk ---"]
+I, [2021-02-26T14:42:21.997584 #56765]  INFO -- : Running action -write_field- on event 1003
+I, [2021-02-26T14:42:21.997618 #56765]  INFO -- : Action: write_field
+I, [2021-02-26T14:42:21.997642 #56765]  INFO -- : no update
+I, [2021-02-26T14:42:21.997661 #56765]  INFO -- : run action results
+I, [2021-02-26T14:42:21.997680 #56765]  INFO -- : [false]
+I, [2021-02-26T14:42:21.997753 #56765]  INFO -- : Running action -write_field- on event 1003
+I, [2021-02-26T14:42:21.997777 #56765]  INFO -- : Action: write_field
+I, [2021-02-26T14:42:21.997797 #56765]  INFO -- : updating event
+I, [2021-02-26T14:42:21.997815 #56765]  INFO -- : run action results
+I, [2021-02-26T14:42:21.997848 #56765]  INFO -- : [{"begin_ts"=>"2020-09-16 15:00:58.16", "end_ts"=>"2020-09-16 15:01:01.456", "fan_extension_version"=>"1.05", "id"=>1003, "is_in_browser"=>true, "page_host"=>"fan.zendesk.com", "page_title"=>"Zendesk (- Ticket 1234)", "page_url"=>"https://fan.zendesk.com/ticket/1234", "ui_events"=>{"n_keypress"=>62, "n_mouse_click"=>0, "n_mouse_move"=>10, "n_mouse_scroll"=>1}, "user_id"=>56183, "tags"=>[]}]
+I, [2021-02-26T14:42:21.997925 #56765]  INFO -- : Running action -write_field- on event 1003
+I, [2021-02-26T14:42:21.997947 #56765]  INFO -- : Action: write_field
+I, [2021-02-26T14:42:21.997963 #56765]  INFO -- : updating event
+I, [2021-02-26T14:42:21.997977 #56765]  INFO -- : run action results
+I, [2021-02-26T14:42:21.998008 #56765]  INFO -- : [{"begin_ts"=>"2020-09-16 15:00:58.16", "end_ts"=>"2020-09-16 15:01:01.456", "fan_extension_version"=>"1.05", "id"=>1003, "is_in_browser"=>true, "page_host"=>"fan.zendesk.com", "page_title"=>"Zendesk (- Ticket 1234)", "page_url"=>"https://fan.zendesk.com/ticket/1234", "ui_events"=>{"n_keypress"=>62, "n_mouse_click"=>0, "n_mouse_move"=>10, "n_mouse_scroll"=>1}, "user_id"=>56183, "tags"=>[]}]
+I, [2021-02-26T14:42:31.914317 #56767]  INFO -- : Processing event 1001
+I, [2021-02-26T14:42:31.914431 #56767]  INFO -- : Condition met for event: 1001
+I, [2021-02-26T14:42:31.914474 #56767]  INFO -- : {"begin_ts"=>"2020-09-16 15:00:54.445", "end_ts"=>"2020-09-16 15:00:58.16", "fan_extension_version"=>"1.05", "id"=>1001, "is_in_browser"=>true, "page_host"=>"analytics.fan.com", "page_title"=>"Home - fan Analytics", "page_url"=>"https://analytics.fan.com/home", "ui_events"=>{"n_keypress"=>0, "n_mouse_click"=>0, "n_mouse_move"=>0, "n_mouse_scroll"=>0}, "user_id"=>56183}
+I, [2021-02-26T14:42:31.914502 #56767]  INFO -- : {:left=>["ui_events", "n_mouse_move"], :right=>0, :operator=>"less_than_equal"}
+I, [2021-02-26T14:42:31.914523 #56767]  INFO -- : condition result
+I, [2021-02-26T14:42:31.914540 #56767]  INFO -- : true
+I, [2021-02-26T14:42:31.914565 #56767]  INFO -- : Running action -drop_event- on event 1001
+I, [2021-02-26T14:42:31.914584 #56767]  INFO -- : dropping
+I, [2021-02-26T14:42:31.914600 #56767]  INFO -- : run action results
+I, [2021-02-26T14:42:31.914617 #56767]  INFO -- : [nil]
+I, [2021-02-26T14:42:31.914662 #56767]  INFO -- : condition result
+I, [2021-02-26T14:42:31.914681 #56767]  INFO -- : false
+I, [2021-02-26T14:42:31.914728 #56767]  INFO -- : condition result
+I, [2021-02-26T14:42:31.914748 #56767]  INFO -- : false
+I, [2021-02-26T14:42:31.914764 #56767]  INFO -- : RESULTS
+I, [2021-02-26T14:42:31.914796 #56767]  INFO -- : {"begin_ts"=>"2020-09-16 15:00:54.445", "end_ts"=>"2020-09-16 15:00:58.16", "fan_extension_version"=>"1.05", "id"=>1001, "is_in_browser"=>true, "page_host"=>"analytics.fan.com", "page_title"=>"Home - fan Analytics", "page_url"=>"https://analytics.fan.com/home", "ui_events"=>{"n_keypress"=>0, "n_mouse_click"=>0, "n_mouse_move"=>0, "n_mouse_scroll"=>0}, "user_id"=>56183}
+I, [2021-02-26T14:42:31.914842 #56767]  INFO -- : Processing event 1002
+I, [2021-02-26T14:42:31.914883 #56767]  INFO -- : Condition met for event: 1002
+I, [2021-02-26T14:42:31.915527 #56767]  INFO -- : {"begin_ts"=>"2020-09-16 15:00:54.485", "end_ts"=>"2020-09-16 15:00:58.338", "fan_extension_version"=>"1.05", "id"=>1002, "is_in_browser"=>true, "page_host"=>"app.gusto.com", "page_title"=>"Home - Gusto", "page_url"=>"https://app.gusto.com/home", "ui_events"=>{"n_keypress"=>0, "n_mouse_click"=>0, "n_mouse_move"=>1, "n_mouse_scroll"=>0}, "user_id"=>56182}
+I, [2021-02-26T14:42:31.915644 #56767]  INFO -- : {:left=>["page_host"], :right=>".*\\.gusto\\.com$", :operator=>"matches_regex"}
+I, [2021-02-26T14:42:31.915681 #56767]  INFO -- : condition result
+I, [2021-02-26T14:42:31.915701 #56767]  INFO -- : true
+I, [2021-02-26T14:42:31.915725 #56767]  INFO -- : Running action -drop_event- on event 1002
+I, [2021-02-26T14:42:31.915743 #56767]  INFO -- : dropping
+I, [2021-02-26T14:42:31.915759 #56767]  INFO -- : run action results
+I, [2021-02-26T14:42:31.915775 #56767]  INFO -- : [nil]
+I, [2021-02-26T14:42:31.915821 #56767]  INFO -- : condition result
+I, [2021-02-26T14:42:31.915840 #56767]  INFO -- : false
+I, [2021-02-26T14:42:31.915885 #56767]  INFO -- : condition result
+I, [2021-02-26T14:42:31.915904 #56767]  INFO -- : false
+I, [2021-02-26T14:42:31.915920 #56767]  INFO -- : RESULTS
+I, [2021-02-26T14:42:31.915962 #56767]  INFO -- : {"begin_ts"=>"2020-09-16 15:00:54.485", "end_ts"=>"2020-09-16 15:00:58.338", "fan_extension_version"=>"1.05", "id"=>1002, "is_in_browser"=>true, "page_host"=>"app.gusto.com", "page_title"=>"Home - Gusto", "page_url"=>"https://app.gusto.com/home", "ui_events"=>{"n_keypress"=>0, "n_mouse_click"=>0, "n_mouse_move"=>1, "n_mouse_scroll"=>0}, "user_id"=>56182}
+I, [2021-02-26T14:42:31.916008 #56767]  INFO -- : Processing event 1003
+I, [2021-02-26T14:42:31.916047 #56767]  INFO -- : condition result
+I, [2021-02-26T14:42:31.916064 #56767]  INFO -- : false
+I, [2021-02-26T14:42:31.916094 #56767]  INFO -- : Condition met for event: 1003
+I, [2021-02-26T14:42:31.916124 #56767]  INFO -- : {"begin_ts"=>"2020-09-16 15:00:58.16", "end_ts"=>"2020-09-16 15:01:01.456", "fan_extension_version"=>"1.05", "id"=>1003, "is_in_browser"=>true, "page_host"=>"fan.zendesk.com", "page_title"=>"Zendesk - Ticket 1234", "page_url"=>"https://fan.zendesk.com/ticket/1234", "ui_events"=>{"n_keypress"=>62, "n_mouse_click"=>0, "n_mouse_move"=>10, "n_mouse_scroll"=>1}, "user_id"=>56183}
+I, [2021-02-26T14:42:31.916143 #56767]  INFO -- : {:left=>["page_title"], :right=>".*Ticket \\d+", :operator=>"matches_regex"}
+I, [2021-02-26T14:42:31.916171 #56767]  INFO -- : Condition met for event: 1003
+I, [2021-02-26T14:42:31.916198 #56767]  INFO -- : {"begin_ts"=>"2020-09-16 15:00:58.16", "end_ts"=>"2020-09-16 15:01:01.456", "fan_extension_version"=>"1.05", "id"=>1003, "is_in_browser"=>true, "page_host"=>"fan.zendesk.com", "page_title"=>"Zendesk - Ticket 1234", "page_url"=>"https://fan.zendesk.com/ticket/1234", "ui_events"=>{"n_keypress"=>62, "n_mouse_click"=>0, "n_mouse_move"=>10, "n_mouse_scroll"=>1}, "user_id"=>56183}
+I, [2021-02-26T14:42:31.916216 #56767]  INFO -- : {:left=>["page_host"], :right=>".*\\.zendesk\\.com$", :operator=>"matches_regex"}
+I, [2021-02-26T14:42:31.916230 #56767]  INFO -- : condition result
+I, [2021-02-26T14:42:31.916243 #56767]  INFO -- : true
+I, [2021-02-26T14:42:31.916262 #56767]  INFO -- : Running action -regex_replace- on event 1003
+I, [2021-02-26T14:42:31.916277 #56767]  INFO -- : Action: regex_replace
+I, [2021-02-26T14:42:31.916289 #56767]  INFO -- : replacing
+I, [2021-02-26T14:42:31.916310 #56767]  INFO -- : {:action=>"regex_replace", :key_path=>["page_title"], :pattern=>"(- Ticket \\d+)", :replacement=>"---", :value=>nil, :overwrite=>nil}
+I, [2021-02-26T14:42:31.916338 #56767]  INFO -- : run action results
+I, [2021-02-26T14:42:31.916354 #56767]  INFO -- : [nil]
+I, [2021-02-26T14:42:31.916383 #56767]  INFO -- : Condition met for event: 1003
+I, [2021-02-26T14:42:31.916411 #56767]  INFO -- : {"begin_ts"=>"2020-09-16 15:00:58.16", "end_ts"=>"2020-09-16 15:01:01.456", "fan_extension_version"=>"1.05", "id"=>1003, "is_in_browser"=>true, "page_host"=>"fan.zendesk.com", "page_title"=>"Zendesk - Ticket 1234", "page_url"=>"https://fan.zendesk.com/ticket/1234", "ui_events"=>{"n_keypress"=>62, "n_mouse_click"=>0, "n_mouse_move"=>10, "n_mouse_scroll"=>1}, "user_id"=>56183}
+I, [2021-02-26T14:42:31.916429 #56767]  INFO -- : {:left=>["page_host"], :right=>".*\\.zendesk\\.com$", :operator=>"matches_regex"}
+I, [2021-02-26T14:42:31.916463 #56767]  INFO -- : Condition met for event: 1003
+I, [2021-02-26T14:42:31.916490 #56767]  INFO -- : {"begin_ts"=>"2020-09-16 15:00:58.16", "end_ts"=>"2020-09-16 15:01:01.456", "fan_extension_version"=>"1.05", "id"=>1003, "is_in_browser"=>true, "page_host"=>"fan.zendesk.com", "page_title"=>"Zendesk - Ticket 1234", "page_url"=>"https://fan.zendesk.com/ticket/1234", "ui_events"=>{"n_keypress"=>62, "n_mouse_click"=>0, "n_mouse_move"=>10, "n_mouse_scroll"=>1}, "user_id"=>56183}
+I, [2021-02-26T14:42:31.916508 #56767]  INFO -- : {:left=>["ui_events", "n_keypress"], :right=>0, :operator=>"greater_than"}
+I, [2021-02-26T14:42:31.916522 #56767]  INFO -- : condition result
+I, [2021-02-26T14:42:31.916535 #56767]  INFO -- : false
+I, [2021-02-26T14:42:31.916548 #56767]  INFO -- : RESULTS
+I, [2021-02-26T14:42:31.916572 #56767]  INFO -- : {"begin_ts"=>"2020-09-16 15:00:58.16", "end_ts"=>"2020-09-16 15:01:01.456", "fan_extension_version"=>"1.05", "id"=>1003, "is_in_browser"=>true, "page_host"=>"fan.zendesk.com", "page_title"=>"Zendesk - Ticket 1234", "page_url"=>"https://fan.zendesk.com/ticket/1234", "ui_events"=>{"n_keypress"=>62, "n_mouse_click"=>0, "n_mouse_move"=>10, "n_mouse_scroll"=>1}, "user_id"=>56183}
+I, [2021-02-26T14:42:31.916624 #56767]  INFO -- : Processing event 1004
+I, [2021-02-26T14:42:31.916664 #56767]  INFO -- : condition result
+I, [2021-02-26T14:42:31.916680 #56767]  INFO -- : false
+I, [2021-02-26T14:42:31.916717 #56767]  INFO -- : condition result
+I, [2021-02-26T14:42:31.916732 #56767]  INFO -- : false
+I, [2021-02-26T14:42:31.916773 #56767]  INFO -- : Condition met for event: 1004
+I, [2021-02-26T14:42:31.916806 #56767]  INFO -- : {"begin_ts"=>"2020-09-16 15:00:58.338", "end_ts"=>"2020-09-16 15:01:01.53", "fan_extension_version"=>"1.05", "id"=>1004, "is_in_browser"=>true, "page_host"=>"kb.fan.com", "page_title"=>"fan Knowledge Base // How to Put Out a Printer Fire", "page_url"=>"https://kb.fan.com/article/5678", "ui_events"=>{"n_keypress"=>62, "n_mouse_click"=>0, "n_mouse_move"=>10, "n_mouse_scroll"=>0}, "user_id"=>56182}
+I, [2021-02-26T14:42:31.916824 #56767]  INFO -- : {:left=>["page_host"], :right=>"^kb\\.fan\\.com$", :operator=>"matches_regex"}
+I, [2021-02-26T14:42:31.916850 #56767]  INFO -- : Condition met for event: 1004
+I, [2021-02-26T14:42:31.916880 #56767]  INFO -- : {"begin_ts"=>"2020-09-16 15:00:58.338", "end_ts"=>"2020-09-16 15:01:01.53", "fan_extension_version"=>"1.05", "id"=>1004, "is_in_browser"=>true, "page_host"=>"kb.fan.com", "page_title"=>"fan Knowledge Base // How to Put Out a Printer Fire", "page_url"=>"https://kb.fan.com/article/5678", "ui_events"=>{"n_keypress"=>62, "n_mouse_click"=>0, "n_mouse_move"=>10, "n_mouse_scroll"=>0}, "user_id"=>56182}
+I, [2021-02-26T14:42:31.916898 #56767]  INFO -- : {:left=>["ui_events", "n_keypress"], :right=>0, :operator=>"greater_than"}
+I, [2021-02-26T14:42:31.916912 #56767]  INFO -- : condition result
+I, [2021-02-26T14:42:31.916924 #56767]  INFO -- : false
+I, [2021-02-26T14:42:31.916936 #56767]  INFO -- : RESULTS
+I, [2021-02-26T14:42:31.916964 #56767]  INFO -- : {"begin_ts"=>"2020-09-16 15:00:58.338", "end_ts"=>"2020-09-16 15:01:01.53", "fan_extension_version"=>"1.05", "id"=>1004, "is_in_browser"=>true, "page_host"=>"kb.fan.com", "page_title"=>"fan Knowledge Base // How to Put Out a Printer Fire", "page_url"=>"https://kb.fan.com/article/5678", "ui_events"=>{"n_keypress"=>62, "n_mouse_click"=>0, "n_mouse_move"=>10, "n_mouse_scroll"=>0}, "user_id"=>56182}
+I, [2021-02-26T14:42:31.917006 #56767]  INFO -- : Processing event 1005
+I, [2021-02-26T14:42:31.917045 #56767]  INFO -- : condition result
+I, [2021-02-26T14:42:31.917060 #56767]  INFO -- : false
+I, [2021-02-26T14:42:31.917093 #56767]  INFO -- : Condition met for event: 1005
+I, [2021-02-26T14:42:31.917137 #56767]  INFO -- : {"begin_ts"=>"2020-09-16 15:01:01.456", "end_ts"=>"2020-09-16 15:01:02.441", "fan_extension_version"=>"1.05", "id"=>1005, "is_in_browser"=>true, "page_host"=>"fan.zendesk.com", "page_title"=>"Zendesk - Ticket 5678", "page_url"=>"https://fan.zendesk.com/ticket/5678", "ui_events"=>{"n_keypress"=>0, "n_mouse_click"=>0, "n_mouse_move"=>10, "n_mouse_scroll"=>0}, "user_id"=>56183}
+I, [2021-02-26T14:42:31.917155 #56767]  INFO -- : {:left=>["page_title"], :right=>".*Ticket \\d+", :operator=>"matches_regex"}
+I, [2021-02-26T14:42:31.917185 #56767]  INFO -- : Condition met for event: 1005
+I, [2021-02-26T14:42:31.917216 #56767]  INFO -- : {"begin_ts"=>"2020-09-16 15:01:01.456", "end_ts"=>"2020-09-16 15:01:02.441", "fan_extension_version"=>"1.05", "id"=>1005, "is_in_browser"=>true, "page_host"=>"fan.zendesk.com", "page_title"=>"Zendesk - Ticket 5678", "page_url"=>"https://fan.zendesk.com/ticket/5678", "ui_events"=>{"n_keypress"=>0, "n_mouse_click"=>0, "n_mouse_move"=>10, "n_mouse_scroll"=>0}, "user_id"=>56183}
+I, [2021-02-26T14:42:31.917233 #56767]  INFO -- : {:left=>["page_host"], :right=>".*\\.zendesk\\.com$", :operator=>"matches_regex"}
+I, [2021-02-26T14:42:31.917247 #56767]  INFO -- : condition result
+I, [2021-02-26T14:42:31.917271 #56767]  INFO -- : true
+I, [2021-02-26T14:42:31.917295 #56767]  INFO -- : Running action -regex_replace- on event 1005
+I, [2021-02-26T14:42:31.917309 #56767]  INFO -- : Action: regex_replace
+I, [2021-02-26T14:42:31.917321 #56767]  INFO -- : replacing
+I, [2021-02-26T14:42:31.917340 #56767]  INFO -- : {:action=>"regex_replace", :key_path=>["page_title"], :pattern=>"(- Ticket \\d+)", :replacement=>"---", :value=>nil, :overwrite=>nil}
+I, [2021-02-26T14:42:31.917374 #56767]  INFO -- : run action results
+I, [2021-02-26T14:42:31.917390 #56767]  INFO -- : [nil]
+I, [2021-02-26T14:42:31.917422 #56767]  INFO -- : Condition met for event: 1005
+I, [2021-02-26T14:42:31.917453 #56767]  INFO -- : {"begin_ts"=>"2020-09-16 15:01:01.456", "end_ts"=>"2020-09-16 15:01:02.441", "fan_extension_version"=>"1.05", "id"=>1005, "is_in_browser"=>true, "page_host"=>"fan.zendesk.com", "page_title"=>"Zendesk - Ticket 5678", "page_url"=>"https://fan.zendesk.com/ticket/5678", "ui_events"=>{"n_keypress"=>0, "n_mouse_click"=>0, "n_mouse_move"=>10, "n_mouse_scroll"=>0}, "user_id"=>56183}
+I, [2021-02-26T14:42:31.917471 #56767]  INFO -- : {:left=>["page_host"], :right=>".*\\.zendesk\\.com$", :operator=>"matches_regex"}
+I, [2021-02-26T14:42:31.917505 #56767]  INFO -- : condition result
+I, [2021-02-26T14:42:31.917520 #56767]  INFO -- : false
+I, [2021-02-26T14:42:31.917534 #56767]  INFO -- : RESULTS
+I, [2021-02-26T14:42:31.917979 #56767]  INFO -- : {"begin_ts"=>"2020-09-16 15:01:01.456", "end_ts"=>"2020-09-16 15:01:02.441", "fan_extension_version"=>"1.05", "id"=>1005, "is_in_browser"=>true, "page_host"=>"fan.zendesk.com", "page_title"=>"Zendesk - Ticket 5678", "page_url"=>"https://fan.zendesk.com/ticket/5678", "ui_events"=>{"n_keypress"=>0, "n_mouse_click"=>0, "n_mouse_move"=>10, "n_mouse_scroll"=>0}, "user_id"=>56183}

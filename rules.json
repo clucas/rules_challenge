@@ -31,7 +31,7 @@
           {
             "any": [
               { "operator": "matchesRegex", "left": "$page_host", "right": ".*\\.zendesk\\.com$" },
-              { "operator": "matchesRegex", "left": "$page_host", "right": "^kb\\.fin\\.com$" }
+              { "operator": "matchesRegex", "left": "$page_host", "right": "^kb\\.fan\\.com$" }
             ]
           },
           { "operator": "greaterThan", "left": "$ui_events.n_keypress", "right": 0 }
